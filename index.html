@@ -6,22 +6,34 @@
     <title>RisolviAMO con l'IA</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 30px; background-color: #f4f4f4; }
-        .container { background: white; padding: 20px; border-radius: 10px; display: inline-block; }
+        .container { background: white; padding: 20px; border-radius: 10px; display: inline-block; max-width: 600px; margin: auto; }
         h1 { color: #222; }
-        p { color: #555; }
-        a { display: block; margin: 10px 0; padding: 10px; background: #000; color: #fff; text-decoration: none; border-radius: 5px; }
+        p { color: #555; font-size: 18px; }
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #0057e7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        a.button:hover {
+            background-color: #0041b3;
+        }
         img { max-width: 150px; margin: 20px auto; }
+        .email { font-size: 16px; color: #444; margin-top: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="logo.png" alt="Logo RisolviAMO">
         <h1>RisolviAMO con l'IA</h1>
-        <p>🎯 Problemi quotidiani? L'IA e l’esperienza ti aiutano.</p>
-        <a href="https://www.tiktok.com/@risolviamo" target="_blank">📱 Segui su TikTok</a>
-        <a href="mailto:risolviamo.ia@gmail.com">📬 Scrivici un problema via Email</a>
-        <a href="https://ko-fi.com/" target="_blank">☕ Offrici un caffè (donazione)</a>
-        <p style="font-size: small; color: #888;">Nessuna consulenza professionale – solo opinioni e suggerimenti.</p>
+        <p>Hai un problema? Io e l’intelligenza artificiale troviamo una possibile soluzione.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSepJ30EfHTa4GRGsw1fO8IqSx6YCEOyXJOpo2gDDpM21K41Ow/viewform" target="_blank" class="button">📨 Inviami il tuo problema</a>
+        <p class="email">Oppure scrivimi: <strong>consigli.ia@gmail.com</strong></p>
+        <p style="font-size: small; color: #888; margin-top: 30px;">Le risposte fornite sono opinioni personali supportate da IA. Nessuna consulenza professionale.</p>
     </div>
 </body>
 </html>
